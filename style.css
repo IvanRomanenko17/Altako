@@ -461,6 +461,7 @@ h5 {
 
 .product_description {
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .product_price {
@@ -470,8 +471,7 @@ h5 {
 
 .card_buttons {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 33px;
+    flex-direction: column;
 }
 
 .counter {
@@ -495,8 +495,27 @@ h5 {
     align-items: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    margin-left: 19px;
     border: none;
+}
+
+.product__price {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.product__old_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__new_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 19px;
 }
 
 .old_price {
@@ -521,7 +540,6 @@ h5 {
     display: flex;
     align-items: center;
     color: #003072;
-    margin-left: 70.61px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
