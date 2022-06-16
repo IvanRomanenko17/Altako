@@ -206,14 +206,14 @@ h5 {
 }
 
 .header__line {
-    margin-top: 20.81px;
+    margin-top: 16px;
 }
 
 .header__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 19.5px;
+    margin-top: 17px;
     margin-bottom: 28.83px;
 }
 
