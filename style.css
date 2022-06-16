@@ -11,6 +11,11 @@ html {
     src: url("./fonts/OpenSans-Regular.ttf") format("ttf"),
     }
 
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url("./fonts/OpenSans-Bold.ttf") format("ttf"),
+    }
+
 body {
     margin: 0;
     font-family: OpenSans;
@@ -22,7 +27,8 @@ p {
 }
 
 ul {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
@@ -34,7 +40,6 @@ li {
     line-height: 19px;
     color: #000000;
     margin-top: 0px;
-    margin-left: 11px;
 }
 
 h2 {
@@ -102,14 +107,48 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 27.63px;
+    margin-top: 19px;
 }
 
+.header__navigation_logo {
+    margin-top: 4px;
+}
 
 .navigation_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 646px;
+    height: 19px;
+    font-family: 'Open Sans Bold';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.header__phone {
+    margin-right: 4px;
+}
+
+.header__btn_green {
+    width: 200px;
+    height: 54px;
+    left: 1420px;
+    top: 15.96px;
+    background: #1BB7B5;
+    border-radius: 5px;
+    border: none;
+    font-family: 'OpenSans Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header__line {
+    margin-top: 16px;
 }
 
 .header__navigation_phone {
@@ -185,13 +224,15 @@ h5 {
 
 .header__menu_menu {
     display: flex;
+    width: 330px;
+    height: 24px;
+    justify-content: space-between;
 }
 
 .menu_item {
     display: flex;
     font-display: row;
     align-items: center;
-    margin-left: 26px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
