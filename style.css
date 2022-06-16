@@ -590,6 +590,19 @@ h5 {
     margin-bottom: 20px;
 }
 
+.catalog__p {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #1F1F1F;
+}
+
 .catalog_icon {
     margin-right: 30px;
 }
