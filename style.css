@@ -217,9 +217,18 @@ h5 {
     margin-bottom: 28.83px;
 }
 
+.header__location_icon {
+    margin-right: 9px;
+}
+
 .location_text {
     display: flex;
     flex-direction: column;
+}
+
+.header__menu_search {
+    height: 40.27px;
+    width: 665.54px;
 }
 
 .header__menu_menu {
@@ -246,6 +255,7 @@ h5 {
     height: 40px;
     background: var(--blue-color);
     border-radius: 5px; 
+    border: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
