@@ -8,7 +8,7 @@ html {
 
 @font-face {
     font-family: "OpenSans";
-    src: url("./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf"),
+    src: url("./fonts/OpenSans-Regular.ttf") format("ttf"),
     }
 
 body {
@@ -710,4 +710,7 @@ h5 {
     display: flex;
     align-items: flex-start;
 }
+
+
+
 
