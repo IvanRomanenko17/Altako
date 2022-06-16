@@ -139,7 +139,7 @@ h5 {
     left: 1420px;
     top: 15.96px;
     background: var(--green-color);
-    border-radius: 5px;
+    border: none;
 }
 
 .header__menu_search {
@@ -457,6 +457,7 @@ h5 {
     width: 181px;
     height: 54px;
     background: var(--green-color);
+    border: none;
     border-radius: 5px;
     font-family: 'Open Sans';
     font-style: normal;
