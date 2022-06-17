@@ -33,12 +33,6 @@ ul {
 
 li {
     list-style-type: none;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
     margin-top: 0px;
 }
 
@@ -120,8 +114,7 @@ h5 {
     justify-content: space-between;
     width: 646px;
     height: 19px;
-    font-family: 'Open Sans Bold';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
@@ -269,7 +262,7 @@ h5 {
 }
 
 .header_city {
-    font-family: 'Open Sans';
+    font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -278,7 +271,7 @@ h5 {
 }
 
 .header_time {
-    font-family: 'Open Sans';
+    font-family: 'OpenSans';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
@@ -289,12 +282,13 @@ h5 {
 }
 
 .header_menu_text {
-    font-family: 'Open Sans';
+    font-family: 'OpenSans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
+    margin-right: 6px;
 }
 
 /* main */
