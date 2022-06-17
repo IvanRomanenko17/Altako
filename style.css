@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-@font-face {
+/* @font-face {
     font-family: "OpenSans";
     src: url("./fonts/OpenSans-Regular.ttf") format("ttf"),
     }
@@ -14,11 +14,11 @@ html {
 @font-face {
     font-family: "OpenSans Bold";
     src: url("./fonts/OpenSans-Bold.ttf") format("ttf"),
-    }
+    } */
 
 body {
     margin: 0;
-    font-family: OpenSans;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -37,7 +37,6 @@ li {
 }
 
 h2 {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -49,7 +48,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -62,7 +60,6 @@ h3 {
 }
 
 h5 {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -133,7 +130,6 @@ h5 {
     background: #1BB7B5;
     border-radius: 5px;
     border: none;
-    font-family: 'OpenSans Bold';
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
@@ -157,7 +153,7 @@ h5 {
 }
 
 .phone_text {
-    font-family: 'Open Sans';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -235,7 +231,6 @@ h5 {
     display: flex;
     font-display: row;
     align-items: center;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -249,7 +244,6 @@ h5 {
     background: var(--blue-color);
     border-radius: 5px; 
     border: none;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -262,7 +256,6 @@ h5 {
 }
 
 .header_city {
-    font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -271,7 +264,6 @@ h5 {
 }
 
 .header_time {
-    font-family: 'OpenSans';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
@@ -282,7 +274,6 @@ h5 {
 }
 
 .header_menu_text {
-    font-family: 'OpenSans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -340,13 +331,11 @@ h5 {
 }
 
 .card_title {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 134.18%;
     text-align: center;
-    font-family: 'OpenSans Bold';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -409,7 +398,6 @@ h5 {
     background: var(--white-color);
     border: 1px solid #1BB7B5;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -481,7 +469,6 @@ h5 {
     height: 39px;
     background: #1BB7B5;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -513,7 +500,6 @@ h5 {
 }
 
 .old_price {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -526,7 +512,6 @@ h5 {
 }
 
 .new_price {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -544,7 +529,6 @@ h5 {
     background: var(--green-color);
     border: none;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -586,7 +570,6 @@ h5 {
 }
 
 .catalog__p {
-    font-family: 'OpenSans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -742,7 +725,6 @@ h5 {
 }
 
 .mail_icon {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -779,7 +761,6 @@ h5 {
 }
 
 .footer__menu_text {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -797,7 +778,6 @@ h5 {
 .footer__phone {
     display: flex;
     text-decoration: none;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -825,7 +805,6 @@ h5 {
 }
 
 .agreement_text {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
