@@ -776,6 +776,7 @@ h5 {
     flex-direction: column;
     height: 114px;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .footer__contacts {
@@ -783,10 +784,6 @@ h5 {
     flex-direction: column;
 }
 
-.footer__phone {
-    display: flex;
-}
- 
 .footer__menu_text {
     font-family: 'Open Sans';
     font-style: normal;
@@ -799,7 +796,13 @@ h5 {
     color: #FFFFFF;
 }
 
+.footer___phone {
+    display: flex;
+}
+
 .footer__phone {
+    display: flex;
+    text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -809,6 +812,7 @@ h5 {
     align-items: center;
     text-align: right;
     color: #FFFFFF;
+    margin-left: 10px;
 }
 
 .footer_place {
@@ -833,11 +837,12 @@ h5 {
     font-size: 12px;
     line-height: 16px;
     color: rgba(255, 255, 255, 0.8);
+    margin-left: 5px;
 }
 
 .copyright {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
