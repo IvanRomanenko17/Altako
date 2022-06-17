@@ -612,8 +612,11 @@ h5 {
     margin-top: 30px;
 }
 
+/* slider_product */
+
 .main__slider_product {
     background: var(--gray-color);
+    width: 100% 
 }
 
 .slider_cards {
@@ -652,6 +655,13 @@ h5 {
 
 .product_check_item {
     margin-left: 25px;
+}
+
+
+/* slider_brands */
+
+.main__slider_brands {
+
 }
 
 .slider_brands {
