@@ -749,9 +749,18 @@ h5 {
 .slider_button {
     width: 118px;
     height: 39px;
-    border: 2px solid var(--blue-color);
+    border: 3px solid var(--blue-color);
     border-radius: 5px;
     margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #003072;
 }
 
 .slider_image {
@@ -866,7 +875,7 @@ h5 {
     justify-content: space-between;
     align-items: center;
     align-items: flex-start;
-    margin-top: 58px;
+    margin-top: 53px;
 }
 
 .footer_mail {
