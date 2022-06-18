@@ -872,7 +872,7 @@ h5 {
 
 .footer_info {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     align-items: flex-start;
     margin-top: 53px;
@@ -896,13 +896,19 @@ h5 {
 .footer__logo {
     display: flex;
     flex-direction: column;
-    height: 114px;
+    height: 125px;
     justify-content: space-around;
+    margin-right: 57.27px;
+
 }
 
 .footer_logo {
     display: flex;
     flex-direction: column;
+}
+
+.footer__line1 {
+    margin-right: 35px;
 }
 
 .footer__menu1 {
