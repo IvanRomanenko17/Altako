@@ -299,7 +299,7 @@ h5 {
     width: 1319px;
     height: 55px;
     bottom: 0px;
-    top: 95%;
+    top: 580px;
     background: #FFFFFF;
     box-shadow: 0px 5px 34px -4px rgba(106, 123, 155, 0.22);
     border-radius: 10px;
@@ -1062,6 +1062,7 @@ h5 {
 
     .main__menu {
         width: 100%;
+        top: 95%;
         position: relative;
     }
 
@@ -1110,6 +1111,11 @@ h5 {
     .cards_row1 {
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .catalog_card:last-child {
+        margin-bottom: 0px;
     }
 
     .catalog_card {
