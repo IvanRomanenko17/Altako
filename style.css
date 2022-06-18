@@ -1069,6 +1069,10 @@ h5 {
         flex-wrap: wrap;
     }
 
+    .header__menu_search {
+        width: 80%;
+    }
+
     .main__banner {
         width: 100%;
         height: auto;
@@ -1186,7 +1190,7 @@ h5 {
     }
 
     .footer_info {
-        flex-wrap: wrap;
+       flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 30px;
@@ -1194,19 +1198,21 @@ h5 {
 
     .footer__agreement {
         margin: 0 auto;
+        height: auto;
         margin-bottom: 20px;
     }
 
    .footer__line1, 
    .footer__line2, 
    .footer__line3 {
-        display: none;
+        transform: rotate(90deg);
    }
 
    .footer__logo, 
    .footer__menu1, 
    .footer__menu2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    align-items: center;
    }
 
 }
@@ -1236,6 +1242,26 @@ h5 {
 
     .slider__offer_image {
         width: 100%;
+    }
+
+    .offers_buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers_buttons2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+   .slider_image {
+        width: 50%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .slider_card {
+        align-items: center;
     }
 
     .footer__agreement {
