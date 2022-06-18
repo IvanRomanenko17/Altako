@@ -556,12 +556,31 @@ h5 {
     flex-direction: column;
 }
 
-.counter {
+.quantity_inner {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 118px;
     height: 39px;
     background: #EEEEEE;
     border-radius: 3px;
     border: none;
+}
+
+.bt_plus,
+.quantity {
+    border: none;
+    text-align: center;
+    background-color: #EEEEEE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .product_card {
