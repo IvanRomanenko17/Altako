@@ -1040,6 +1040,7 @@ h5 {
         margin-bottom: 10px;
     }
 
+
     .header__menu {
         flex-direction: column;
         width: 100%;
@@ -1066,6 +1067,10 @@ h5 {
 
     .green_line {
         width: 25%;
+    }
+
+    .offers_slider {
+        width: 100%;
     }
 
     .slider_with_button {
@@ -1179,7 +1184,9 @@ h5 {
     margin-bottom: 30px;
    }
 
-
 }
 
+@media screen and (max-width:768px) {
 
+
+}
