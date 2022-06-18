@@ -363,9 +363,17 @@ h5 {
     left: 73px;
     width: 118px;
     height: 39px;
-    border: 2px solid #003072;
+    border: 3px solid var(--blue-color);
     border-radius: 5px;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #003072;
 }
 
 .slider__sale {
@@ -387,12 +395,21 @@ h5 {
 .slider_button_absolute_right {
     position: absolute;
     top: 106px;
-    right: 73px;
+    right: 80px;
     width: 118px;
     height: 39px;
-    border: 2px solid #003072;
+    border: 3px solid var(--blue-color);
     border-radius: 5px;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #003072;
 }
 
 .slider__help {
