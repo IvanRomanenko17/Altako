@@ -69,6 +69,8 @@ h5 {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--dark-blue);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .container {
@@ -669,6 +671,10 @@ h5 {
     margin-bottom: 20px;
 }
 
+.cards_row1: :last-child {
+    margin-bottom: 0px;
+}
+
 .catalog__p {
     font-style: normal;
     font-weight: 600;
@@ -739,6 +745,7 @@ h5 {
     height: 39px;
     border: 2px solid var(--blue-color);
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .slider_image {
@@ -748,7 +755,7 @@ h5 {
 
 .product_check {
     display: flex;
-    margin-top: 30px;
+    margin-top: 29px;
     margin-bottom: 50px;
     justify-content: center;
 }
