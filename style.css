@@ -287,16 +287,18 @@ h5 {
 .main__banner {
     width: 1319px;
     height: 400px;
+    position: relative;
+    margin-bottom: 57px;
 }
 
 .main__menu {
     width: 1319px;
     height: 55px;
-    left: 301px;
     top: 580px;
     background: #FFFFFF;
     box-shadow: 0px 5px 34px -4px rgba(106, 123, 155, 0.22);
     border-radius: 10px;
+    position: absolute;
 }
 
 .main__menu_list {
@@ -358,6 +360,25 @@ h5 {
     left: 73px;
     width: 118px;
     height: 39px;
+    border: 2px solid #003072;
+    border-radius: 5px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.slider__sale {
+    position: absolute;
+    width: 134px;
+    height: 65px;
+    top: 41px;
+    left: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #FF9F00;
 }
 
 .slider_button_absolute_right {
@@ -366,6 +387,26 @@ h5 {
     right: 73px;
     width: 118px;
     height: 39px;
+    border: 2px solid #003072;
+    border-radius: 5px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.slider__help {
+    position: absolute;
+    width: 255px;
+    height: 54px;
+    top: 55px;
+    right: 72.54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #003072;
 }
 
 .main__slider_offers {
@@ -423,18 +464,52 @@ h5 {
 }
 
 .product_cards {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 315px;
     height: 400px;
-    left: 301px;
-    top: 1301px;
     filter: drop-shadow(0px 0px 19px rgba(106, 123, 155, 0.25));
     background: #FFFFFF;
     border-radius: 10px;
     }
+
+.product__cards_discount {
+    position: absolute;
+    display: flex;
+    background: #FFB740;
+    backdrop-filter: blur(15px);
+    border-radius: 3px;
+    width: 56.18px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 18.06px;
+    top: 15.71px;
+}
+
+.discount {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F1F1F;
+}
+
+.product__cards_heart {
+    position: absolute;
+    width: 20.06px;
+    height: 17.83px;
+    top: 21.71px;
+    right: 20.06px;
+}
 
 .product_image {
     width: 213.32px;
@@ -509,6 +584,7 @@ h5 {
     letter-spacing: 0.02em;
     text-decoration-line: line-through;
     color: #898989;
+    padding-bottom: 13.36px;
 }
 
 .new_price {
@@ -520,7 +596,7 @@ h5 {
     align-items: center;
     color: #003072;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 9.36px;
 }
 
 .product_button_catalog {
