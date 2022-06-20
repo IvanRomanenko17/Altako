@@ -26,6 +26,10 @@ li {
     margin-top: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h2 {
     font-style: normal;
     font-weight: 700;
@@ -110,7 +114,11 @@ h5 {
     font-size: 14px;
     line-height: 19px;
     color: #000000;
+    text-decoration: none;
+}
 
+.navigation_list_item {
+    text-decoration: none;
 }
 
 .header__phone {
