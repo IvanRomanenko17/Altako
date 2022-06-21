@@ -350,6 +350,10 @@ h5 {
     position: relative;
 }
 
+.menu__list_green_line:after {
+    border: #1BB7B5;
+}
+
 .green_line {
     position: absolute;
 }
@@ -752,8 +756,13 @@ h5 {
     background: #FFFFFF;
     box-shadow: 0px 5px 34px -4px rgba(106, 123, 155, 0.22);
     border-radius: 10px;
+    cursor: pointer;
 }
 
+
+div > .catalog_card:hover {
+    border: solid 3px #1BB7B5;
+}
 
 .cards_row1 {
     display: flex;
