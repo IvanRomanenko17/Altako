@@ -350,13 +350,18 @@ h5 {
     position: relative;
 }
 
-.menu__list_green_line:after {
-    border: #1BB7B5;
+.menu__list_green_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
-.green_line {
-    position: absolute;
-}
+.menu__list_green_line:hover {
+    border-bottom: solid 3px #1BB7B5;
+    transform: translate(-1px,-1px);
+    }
+
 
 .card {
     display: flex;
