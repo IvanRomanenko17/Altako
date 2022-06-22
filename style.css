@@ -888,8 +888,8 @@ div > .catalog_card:hover {
     justify-content: center;
 }
 
-.product_check_item {
-    margin-left: 25px;
+.slider_button_green {
+    display: flex;
 }
 
 
@@ -1413,3 +1413,25 @@ div > .catalog_card:hover {
     letter-spacing: 0.02em;
     color: var(--dark-blue);
 }
+
+/* carousel */
+.slider__container {
+    display: flex;
+    justify-content: center;
+    background: var(--gray-color);
+    width: 100%;
+}
+
+.slider_button_green {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: relative;
+    margin-left: 50%;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+
