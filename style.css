@@ -892,6 +892,37 @@ div > .catalog_card:hover {
     display: flex;
 }
 
+.slider__container {
+    display: flex;
+    justify-content: center;
+    background: var(--gray-color);
+    width: 100%;
+}
+
+.slider_button_green {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: relative;
+    margin-left: 50%;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+}
+
+.product_check_item1:hover {
+    background-color: var(--green-color);
+    border-radius: 3px;
+ }
+
+ .product_check_item2:hover {
+    background-color: var(--green-color);
+    border-radius: 3px;
+ }
+
 
 /* slider_brands */
 
@@ -1412,26 +1443,5 @@ div > .catalog_card:hover {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--dark-blue);
-}
-
-/* carousel */
-.slider__container {
-    display: flex;
-    justify-content: center;
-    background: var(--gray-color);
-    width: 100%;
-}
-
-.slider_button_green {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    position: relative;
-    margin-left: 50%;
-    margin-left: 10px;
-    width: auto;
-    height: auto;
 }
 
