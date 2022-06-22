@@ -968,6 +968,12 @@ div > .catalog_card:hover {
     height: 71px;
 }
 
+.post_text:hover {
+    height: 250px;
+    background-color: #ebebeb;
+    top: 0%;
+}
+
 
 /* footer */
 .footer {
