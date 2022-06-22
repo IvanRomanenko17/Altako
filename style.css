@@ -369,6 +369,7 @@ h5 {
     align-items: center;
     justify-content: center;
     align-content: center;
+    border: none;
 }
 
 .main__cards {
