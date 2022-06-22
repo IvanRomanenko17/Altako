@@ -889,10 +889,6 @@ div > .catalog_card:hover {
     justify-content: center;
 }
 
-.slider_button_green {
-    display: flex;
-}
-
 .slider__container {
     display: flex;
     justify-content: center;
@@ -900,18 +896,24 @@ div > .catalog_card:hover {
     width: 100%;
 }
 
+.button_flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 .slider_button_green {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    width: 100px;
 }
 
 .carousel-control-prev, .carousel-control-next {
     position: relative;
-    margin-left: 50%;
-    margin-left: 20px;
     width: auto;
     height: auto;
+    margin: 0 auto;
 }
 
 .product_check_item1:hover {
@@ -1145,6 +1147,7 @@ div > .catalog_card:hover {
 
     .container {
         width: 100%;
+        align-items: center;
     }
 
     .header__line {
@@ -1193,6 +1196,7 @@ div > .catalog_card:hover {
         width: 100%;
         top: 95%;
         position: relative;
+        margin-bottom: 40px;
     }
 
     .green_line {
@@ -1250,6 +1254,10 @@ div > .catalog_card:hover {
     .catalog_card {
         margin-right: 10px;
         margin-bottom: 10px;
+    }
+
+    .slider__container {
+        flex-direction: column;
     }
 
     .slider_cards {
