@@ -94,6 +94,7 @@ h5 {
     background: #FFFFFF;
     box-shadow: 0px 0px 18px rgba(143, 143, 143, 0.25);
     margin-bottom: 21px;
+    height: 179px
 }
 
 .header__navigation_logo {
@@ -216,12 +217,21 @@ h5 {
     border-radius: 5px;
 }
 
+.header__line_container {
+    margin: 0 auto;
+    width: 1319px;
+}
+
 .header__line {
+    margin: 0 auto;
+    width: 1319px;
     margin-top: 16px;
 }
 
 .header__menu {
     display: flex;
+    margin: 0 auto;
+    width: 1319px;
     justify-content: space-between;
     align-items: center;
     margin-top: 17px;
@@ -325,7 +335,7 @@ h5 {
     width: 1319px;
     height: 400px;
     position: relative;
-    margin-bottom: 57px;
+    margin-bottom: 77px;
 }
 
 .main__menu {
