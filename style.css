@@ -51,7 +51,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 45px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -366,6 +366,7 @@ h5 {
     justify-content: center;
     align-items: center;
     width: 25%;
+    margin-bottom: 0px;
 }
 
 .menu__list_green_line:hover {
