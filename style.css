@@ -1141,10 +1141,11 @@ div > .catalog_card:hover {
 
 
 
-
-
-
 @media screen and (max-width:1280px) {
+
+    h3 {
+        font-size: 14px;
+    }
 
     .container {
         width: 100%;
@@ -1158,6 +1159,8 @@ div > .catalog_card:hover {
     .header__navigation {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        max-width: 1280px;
     }
 
     .header__navigation_logo,
@@ -1204,8 +1207,14 @@ div > .catalog_card:hover {
         width: 25%;
     }
 
+    .main__slider_offers {
+        width: 100%;
+        max-width: 1280px;
+    }
+
     .offers_slider {
         width: 100%;
+        max-width: 1280px;
     }
 
     .slider_with_button {
